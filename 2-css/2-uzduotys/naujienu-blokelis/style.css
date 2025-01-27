@@ -1,0 +1,32 @@
+body { 
+    background: linear-gradient(180deg, #58F6EC 0%, #FBEDDD 64.58%); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}  
+h2 { 
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}  
+#naujiena1 { 
+    background: #FFFFFF; 
+    padding-top: 50px; 
+    padding-right: 40px; 
+    padding-bottom: 30px; 
+    padding-left: 40px; 
+    text-align: center; 
+    margin-top: 30px;
+    margin-right: 500px; 
+    margin-left: 500px; 
+    align-items: center;
+} 
+#button1 { 
+    background: #FCCB92; 
+    width: 73px; 
+    height: 31px; 
+    border: none;
+    
+}
+

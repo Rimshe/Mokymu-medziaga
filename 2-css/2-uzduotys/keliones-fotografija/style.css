@@ -1,0 +1,19 @@
+main { 
+    background: #D4F1E6; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+} 
+.flex-container { 
+    display: flex;
+}  
+main h1 { 
+    font-size: 32px; 
+    font-weight: 700; 
+    line-height: 48px;
+}
+main .img-list { 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    size: 50%;
+}

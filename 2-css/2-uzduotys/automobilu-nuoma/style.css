@@ -1,0 +1,113 @@
+body { 
+    max-width: 1550px;
+    margin: 0 auto; 
+} 
+header { 
+    justify-content: space-between;  
+    background-color: aquamarine;
+} 
+.flex-box { 
+    display: flex;
+} 
+ul, li, a { 
+    display: inline-flex; 
+    padding: 1px;   
+    text-decoration: none; 
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700; 
+    color: #000; 
+}     
+ul { 
+    margin-right: 200px;
+    padding-top: 20px;
+} 
+li { 
+    margin-right: 30px; 
+    padding:  2px 1px;
+}
+ li:hover, header a:hover { 
+    background: #E7852B; 
+    color: #fff; 
+    border-radius: 15px; 
+    padding:  3px 1px;
+}  
+header h4 { 
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left; 
+    margin-left: 180px;
+} 
+header span { 
+    color: #E7852B; 
+    display: flex; 
+    flex-direction: column;
+} 
+main { 
+    background-color: #FEFEFE; 
+    
+} 
+img { 
+    width: 900px; 
+    height: 600px;
+    margin-left: 619px;  
+}  
+main h1 { 
+    font-family: Poppins; 
+    font-weight: 700; 
+    font-size: 60px;  
+} 
+.welcome-page { 
+    text-align: left;
+    flex-direction: column; 
+    align-items: baseline; 
+}   
+.welcome-page span { 
+    display: flex; 
+    flex-direction: column;
+}
+.welcome-page h1, .welcome-page p { 
+    text-align: center; 
+    
+}  
+.welcome-page p { 
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    color: #E7852B;
+} 
+ .main-buttons{ 
+    margin-left: 60px;  
+    font-size: 10px; 
+    font-family: 'Inter';
+ } 
+ .big-button, .small-button { 
+    background-color: #FEFEFE; 
+    border: 2px solid #000000; 
+    border-radius: 4px; 
+    padding: 10px 20px; 
+ }
+ .big-button:hover, .small-button:hover {  
+    background-color:#E7852B ; 
+    border-color: #E7852B; 
+    color: #fff;
+ }   
+ .banner p { 
+    background-color: #E7852B; 
+    color: #fff;
+    margin-bottom: 500px; 
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600; 
+    padding: 15px 243px; 
+    text-align: left; 
+ } 
+
+ 
+ 
+ 
+
+
+
+

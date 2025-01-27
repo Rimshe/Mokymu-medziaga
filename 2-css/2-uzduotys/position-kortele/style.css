@@ -1,0 +1,94 @@
+body { 
+    background-color: rgb(222, 224, 226);
+} 
+.main-container {   
+    background: #fff; 
+    margin-left: 610px; 
+    margin-right: 594px; 
+    margin-top: 40px; 
+    border-radius: 15px; 
+    margin-bottom: 30px; 
+    height: 380px; 
+    box-shadow: 0px 2px 4px 0px #60617029; 
+}     
+img { 
+    width: 300px; 
+    height: 191px; 
+    border-top-right-radius: 15px; 
+    border-top-left-radius: 15px; 
+} 
+.date { 
+    border-radius: 10px; 
+    width: 50px; 
+    height: 50px;  
+    background: #fff; 
+    position: relative; 
+    left: 230px; 
+    bottom: 50px;  
+    box-shadow: 0px 2px 4px 0px #60617029;
+}    
+.h2-date { 
+    font-family: Inter; 
+    font-size: 23px; 
+    text-align: center; 
+    position: relative; 
+} 
+.p-date { 
+    text-align: center;  
+    font-size: 15px; 
+    position: relative; 
+    bottom: 20px;
+}  
+.icon-1 { 
+    background-image: url("../position-kortele/icons/icon1.svg"); 
+    width: 35px; 
+    height: 35px; 
+    background-repeat: no-repeat; 
+    border-radius: 50%; 
+    border: 1px solid grey; 
+    text-align: center; 
+    position: relative; 
+    bottom: 70px; 
+    left: 15px;  
+    background-size: 20px 20px; 
+    background-position: center; 
+    background-color: #fff;
+}  
+.icon-2 { 
+    background-image: url("../position-kortele/icons/icon2.svg"); 
+    width: 35px; 
+    height: 35px; 
+    background-repeat: no-repeat; 
+    border-radius: 50%; 
+    border: 1px solid grey; 
+    text-align: center; 
+    position: relative; 
+    bottom: 70px; 
+    left: 25px; 
+    background-size: 20px 20px; 
+    background-position: center; 
+    background-color: #fff;
+} 
+.degustation { 
+    position: relative; 
+    bottom: 50px; 
+    left: 15px; 
+    color: rgb(168, 168, 168); 
+    font-family: Inter;
+} 
+.event-name { 
+    position: relative; 
+    bottom: 65px; 
+    left: 15px;
+} 
+h2, .p-date, .h2-date { 
+    font-family: Inter;
+}  
+.main-container:hover {  
+    box-shadow: 8px 13px 23px 9px #3E7FE14D; 
+    border: 3px solid #3E7FE1; 
+    margin-right: 589px; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+

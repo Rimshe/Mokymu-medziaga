@@ -1,0 +1,145 @@
+@import 'colors';
+
+.flex-container {
+    display: flex;
+}
+
+#page-container {
+    max-width: 1550px;
+    margin: 0 auto;
+
+    header {
+        padding: 12px 0;
+        background-color: $headerFooterMainBgColor;
+
+        nav {
+            background-color: $headerFooterMainBgColor;
+            padding-right: 75px;
+            padding-left: 85px;
+
+            button {
+                background-color: $buttonElementsColor;
+                border-color: $buttonElementsColor;
+            }
+
+            .brand-logo-icon {
+                color: $headerFooterMainBgColor;
+                position: absolute;
+                left: 103px;
+                top: 15px;
+            }
+
+            .navbar-brand {
+                color: $titleBrandColor;
+                font-weight: 600;
+            }
+
+            .navbar-nav {
+                a {
+                    color: $navbarAColor;
+                    font-weight: 400;
+                    font-size: 15px;
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+
+    main {
+        .welcome-page {
+            .form-container {
+                height: 700px;
+                width: 50%;
+
+                .title-box {
+                    h1 {
+                        font-family: 'Kumbh sans';
+                        font-size: 48px;
+                        font-weight: 800;
+                        line-height: 58px;
+                        text-align: left;
+                        color: $titleBrandColor;
+                        width: 615px;
+                        margin-top: 115px;
+                        padding-left: 115px;
+                    }
+
+                    p {
+                        font-family: 'Kumbh Sans';
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 30px;
+                        text-align: left;
+                        color: $textPColor;
+                        padding-left: 115px;
+                        width: 595px;
+                    }
+                }
+
+                .form-box {
+                    padding-left: 115px;
+
+                    input {
+                        width: 300px;
+                        margin-top: 20px;
+                        color: $textPColor;
+                        font-family: 'Inter';
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: left;
+                        height: 45px;
+                    }
+
+                    p {
+                        font-family: 'Inter';
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-align: left;
+                        color: $textPColor;
+                        padding-top: 15px;
+                    }
+
+                    span {
+                        text-decoration: underline;
+                    }
+
+                    button {
+                        width: 300px;
+                        background-color: $buttonElementsColor;
+                        height: 45px;
+                        border-color: $buttonElementsColor;
+                    }
+                }
+            }
+
+            .add-container {
+                background-color: $containerBgColor;
+                width: 50%;
+
+                img {
+                    padding-left: 25%;
+                    padding-top: 80px;
+                }
+
+                .add-circle {
+                    background-color: $buttonElementsColor;
+                    width: 100px;
+                    text-align: center;
+                    height: 100px;
+                    border-radius: 50%;
+                    position: relative;
+                    bottom: 620px;
+                    left: 570px;
+
+                    h6 {
+                        color: $headerFooterMainBgColor;
+                        font-size: 15px;
+                        padding-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

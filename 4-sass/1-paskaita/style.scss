@@ -1,0 +1,61 @@
+// $redColor: #ff0000;
+
+// h1 {
+//     color: $redColor;
+// }
+
+// $font-stack: Helvetica, sans-serif;
+// $primary-color: #333;
+// $divClassNAme: 'sass-div';
+
+
+// div.#{$divClassName} {
+//     color: red;
+// }
+
+// body {
+//     font: 100% $font-stack;
+//     color: $primary-color;
+
+//     h1 {
+//         color: blue;
+
+//         &:hover {
+//             color: green;
+//         }
+//     }
+// } 
+
+//////////////////////////////////////////////////
+
+// nav {
+//     ul {
+//         margin: 0;
+
+//         li {
+//             color: red;
+//         }
+//     }
+
+//     li {
+//         display: block;
+//     }
+
+//     a {
+//         text-decoration: none;
+
+//         &:hover {
+//             text-decoration: dotted;
+//         }
+//     }
+// } 
+ 
+//////////////////////////////// 
+ 
+.message { 
+    color: red;
+} 
+.error-message { 
+    @extend .message;
+    font-size: 50px;
+}

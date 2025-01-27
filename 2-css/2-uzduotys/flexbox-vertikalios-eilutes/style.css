@@ -1,0 +1,49 @@
+p { 
+    background-color: #fff; 
+    height: 300px; 
+    width: 400px;
+}
+.eile1 { 
+    background: rgb(255 165 0); 
+    display: flex; 
+    justify-content: start;
+    padding: 10px; 
+} 
+.eile2 { 
+    background: rgb(143 188 143); 
+    padding: 10px;  
+    display: flex; 
+    justify-content: flex-end;
+} 
+.eile3 { 
+    background: rgb(255 140 0); 
+    padding: 10px; 
+    display: flex;
+    justify-content: start;
+} 
+.eile4 { 
+    background: rgb(0 206 209); 
+    padding: 10px;  
+    display: flex; 
+    justify-content: center;
+} 
+.eile5 { 
+    background: rgb(220 20 60); 
+    padding: 10px; 
+    display: flex; 
+    justify-content: end; 
+    align-items: end;
+} 
+.small-box1, .small-box2, .small-box3 { 
+    height: 150px; 
+    width: 400px;
+} 
+.small-box1 { 
+    margin: 50px 0px; 
+} 
+.small-box2 { 
+    margin: 50px 0px;
+} 
+.small-box3 { 
+    margin: 100px 0px 0px;
+}

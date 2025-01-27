@@ -1,0 +1,15 @@
+h1 { 
+    background-color: #8fbc8f; 
+    color: white;
+}   
+.lorem1 { 
+    background-color: #f5f5dc;
+} 
+.lorem2 { 
+    background-color: #644af7; 
+    color: white;
+} 
+.lorem1-3, .lorem1-5, .lorem2-23, .lorem2-6, .lorem2-8 { 
+    color: rgb(255, 50, 9); 
+    background-color: #262626;
+}

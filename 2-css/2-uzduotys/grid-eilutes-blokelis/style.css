@@ -1,0 +1,35 @@
+.red { 
+    background-color: red; 
+    color: red;  
+    grid-area: r;
+} 
+.blue { 
+    background-color: blue; 
+    color: blue; 
+    grid-area: b; 
+} 
+.green { 
+    background-color: green; 
+    color: green;  
+    grid-area: g;
+} 
+.purple { 
+    background-color: purple; 
+    color: purple;  
+    grid-area: p;
+}   
+.purple-2 { 
+    background-color: purple; 
+    color: purple;  
+    grid-area: p2;
+}  
+.container { 
+    display: grid;  
+    grid-template: repeat(5,150px) / repeat(5, 1fr); 
+    grid-gap: 10px;
+    grid-template-areas:  
+    'r r r r' 
+    'b b g g' 
+    'b b p p2' ;
+
+}

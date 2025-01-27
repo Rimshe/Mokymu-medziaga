@@ -1,0 +1,7 @@
+.message, .error-message {
+  color: red;
+}
+
+.error-message {
+  font-size: 50px;
+}

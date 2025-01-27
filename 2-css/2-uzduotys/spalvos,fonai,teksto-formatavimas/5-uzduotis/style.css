@@ -1,0 +1,23 @@
+body { 
+    background-color: #f2e9d8;
+} 
+h1, h2, h3 { 
+    background-color: rgba(0, 0, 0, 0.2);
+}
+table { 
+    background-size: cover; 
+    background-attachment: fixed;
+} 
+.td-background-color { 
+    background-color: rgba(225, 225, 225,0.6);
+} 
+.langeliai { 
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+} 
+.pirmas-paragrafas { 
+    color: grey;
+} 
+a { 
+    color: #ed0a3f;
+}

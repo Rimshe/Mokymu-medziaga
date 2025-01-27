@@ -1,0 +1,44 @@
+.container { 
+    margin: 0px; 
+    width: 100px; 
+    height: 100px; 
+    background-color: #cccccc; 
+    color: #b8b8b8; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+    
+} 
+.flex-container { 
+    display: flex; 
+    gap: 3px;
+} 
+.juodas-projektelis, .flex-galerija, .naujienos { 
+    background-color: white;
+} 
+h1 { 
+    color: black;
+} 
+.pilka-galerija, .pilkos-naujienos { 
+    background-color: #bfbfbf; 
+} 
+h3 { 
+    color: #db4442;
+} 
+p { 
+    color: #6571f5;
+} 
+.Naujiena1, .Naujiena2, .Naujiena3 { 
+    background-color: #f5f5dc;
+}  
+body { 
+    background-color: black;
+} 
+.Skaityti-daugiau { 
+    background-color: #db4442;
+    color: white;
+}  
+.naujienu-background { 
+    color: black;
+}

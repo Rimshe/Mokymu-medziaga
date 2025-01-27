@@ -1,0 +1,45 @@
+body { 
+    background-color: rgb(96, 224, 182);
+} 
+#pvz1, #pvz2, #pvz3, #pvz4, #pvz5 { 
+    background-color: rgb(233, 253, 5);
+    max-width: 80%; 
+    margin-top: 5em; 
+    margin-bottom: 5em; 
+    margin-left: auto; 
+    margin-right: auto;
+}  
+#pvz2 { 
+    padding: 5em; 
+    border-radius: 150px;
+} 
+#pvz3 { 
+    padding-top: 5em; 
+    padding-left: 0em; 
+    padding-bottom: 5em; 
+    padding-right:  0em; 
+    border-bottom: 10px solid;  
+    border-right: 15px dashed; 
+    border-bottom-color: blueviolet; 
+    border-right-color: orange;
+}
+
+#pvz4 { 
+    padding-top: 0; 
+    padding-left: 5em; 
+    padding-right: 5em; 
+    padding-bottom: 1em; 
+    border-top-left-radius: 20px; 
+    border-bottom-right-radius: 50px;
+} 
+#pvz5 {  
+    padding-top: 0; 
+    padding-left: 0em; 
+    padding-right: 0em; 
+    padding-bottom: 5em; 
+    border-left: 10px dashed;border-color: blue;
+} 
+#pvz1 { 
+    border: 12px solid; border-color: red; 
+    box-shadow: 5px 5px 15px green;
+}

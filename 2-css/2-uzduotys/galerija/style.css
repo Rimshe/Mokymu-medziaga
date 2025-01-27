@@ -1,0 +1,24 @@
+body { 
+    background-color: #e7e7e7;
+}
+h1 { 
+    color: #f5fbff; 
+}  
+h2 { 
+    color: #f5fbff;
+} 
+.projektas { 
+    background-color:  #000000;
+} 
+.Paslauga, .Apie-mus { 
+    background-color: #6495ed;
+} 
+.paslauga1, .paslauga2, .paragrafas, .paslauga3, .paskutiniai { 
+    background-color: #ffffff;
+} 
+a:hover { 
+    color: orange;
+} 
+.Skaityti-daugiau { 
+    color: #ff8b73;
+}

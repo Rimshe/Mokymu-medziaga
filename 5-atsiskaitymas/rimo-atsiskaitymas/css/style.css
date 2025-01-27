@@ -1,0 +1,414 @@
+* body { 
+    margin: 0 auto;
+} 
+#page-container  { 
+    max-width: 1550px;     
+}
+.flex-container { 
+    display: flex;
+}
+#page-container .top-banner {
+    background-color: #000000; 
+    text-align: center; 
+    justify-content: space-between;
+} 
+#page-container .top-banner, 
+#page-container .top-banner a { 
+    color: #fff;
+    font-family: 'satoshi';
+    font-size: 14px; 
+}   
+.top-banner img { 
+    margin-right: 100px; 
+    cursor: pointer;
+} 
+.top-banner p { 
+    margin-left: 598px; 
+    margin-top: 10px; 
+}  
+header .navbar { 
+    padding: 0;
+}
+header nav .container-fluid { 
+    background-color: #fff; 
+    padding: 20px 0; 
+    margin: 0 auto; 
+}
+.container-fluid .navbar-brand { 
+    font-size: 30px; 
+    font-weight: 700; 
+    font-family:  'arial black'; 
+    margin-left: 80px;
+} 
+.container-fluid ul li a { 
+    font-family: "satoshi"; 
+    font-size: 15px; 
+    color: #000000; 
+    margin-left: 20px;
+}  
+header form .form-control { 
+    width: 637px;
+    border-radius: 62px; 
+    height: 45px;
+    position: absolute; 
+    right: 249px; 
+    bottom: 24px;
+} 
+header form .form-control { 
+    padding-left: 50px; 
+    color: #979494; 
+    background-color: #F0F0F0; 
+    font-size: 14px;
+} 
+header .search-icon svg{ 
+    position: absolute; 
+    top: 86px; 
+    right: 855px; 
+    cursor: pointer; 
+    color: #979494;
+} 
+header .header-icons { 
+    position: absolute; 
+    top: 76px;   
+    left: 1296px;
+}  
+header .header-icons svg { 
+    padding: 0 5px; 
+    cursor: pointer;
+} 
+.welcome-page { 
+    background-image: url("../img/Rectangle\ 2.svg");   
+    height: 663px;
+}  
+.welcome-page h1 { 
+    font-family:  'arial black'; 
+    font-size: 60px; 
+    text-align: left; 
+    color: #000000;
+    padding-top: 91px; ; 
+    width: 604px;
+} 
+.welcome-page .welcome-page-title p { 
+    font-family:  'satoshi'; 
+    font-size: 16px; 
+    text-align: left;  
+    margin-left: 13px;
+    color: #00000094; 
+    width: 557px;
+} 
+.welcome-page .welcome-page-title { 
+    padding-left: 67px;
+} 
+.welcome-page button { 
+    margin-left: 9px; 
+    width: 207px;
+    height: 46px; 
+    border-radius: 60px;
+    margin-top: 20px;
+} 
+.welcome-page-statistics { 
+    margin-top: 50px; 
+    flex-wrap: wrap; 
+    width: 100%;
+}  
+.welcome-page-statistics .row { 
+   width: 100%;
+}
+.welcome-page-statistics span { 
+    font-family:  'satoshi'; 
+    font-size: 38px; 
+    color: #000000; 
+    font-weight: 700;
+    padding: 0;
+    justify-content: space-evenly; 
+} 
+.welcome-page .welcome-page-statistics .row .col-6 {  
+   width: 33%;
+}
+.welcome-page-statistics .row p { 
+   font-size: 14px; 
+}  
+.welcome-page-statistics .row .second { 
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    border-left: 2px solid rgba(0, 0, 0, 0.1);   
+ } 
+ .welcome-page .welcome-page-statistics { 
+    text-align: center;
+ } 
+ .welcome-page .welcome-page-statistics { 
+    margin-left: 40px; 
+ } 
+ .welcome-page .welcome-page-statistics .row .col-4 { 
+    padding: 0 30px; 
+ }  
+ .big-star img { 
+    position: absolute; 
+    top: 235px; 
+    left: 1261px;
+ } 
+ .small-star img { 
+    position: absolute;  
+    left: 726px; 
+    top: 449px;
+ } 
+ .brand-banner { 
+    background-color: #000000; 
+    padding: 30px 70px; 
+ } 
+ .brand-banner-images { 
+   justify-content: space-between;
+} 
+.brand-banner img { 
+   padding: 0 54px;
+}
+ main h1 { 
+    text-align: center; 
+    font-size: 45px; 
+    font-family:  'arial black'; 
+    margin-top: 60px; 
+    margin-bottom: 50px;
+ } 
+ main h6 { 
+    font-family:  'satoshi'; 
+    font-size: 17px; 
+    font-weight: 700; 
+    margin-top: 20px;
+ } 
+ main p { 
+    font-family:  'satoshi'; 
+    font-size: 26px; 
+    font-weight: 700; 
+ }  
+ main .product-container img { 
+    cursor: pointer; 
+ } 
+ main .product-container .col-3 .img-bounce-animation img:hover { 
+    cursor: pointer; 
+    position: relative; 
+    bottom: 20px;
+ }
+ main .product-container .row { 
+    margin: 0 121px;
+ } 
+ main span { 
+    font-family:  'satoshi'; 
+    font-size: 26px; 
+    font-weight: 700; 
+    color: #00000066;
+    text-decoration: line-through solid 1px; 
+    margin: 0 10px;
+ }  
+ main .discount-box {  
+    font-family:  'satoshi'; 
+    color: #FF3333; 
+    background-color: #ff33332b; 
+    height: 25px; 
+    width: 50px; 
+    margin-top: 6px; 
+    align-items: center; 
+    text-align: center; 
+    border-radius: 60px;
+ } 
+ main .discount-box p { 
+    font-size: 12px; 
+    margin-top: 4px; 
+    font-weight: 400;
+ } 
+ main button {  
+    font-family:  'satoshi';  
+    font-weight: 500; 
+    font-size: 15px;
+    margin-left: 657px; 
+    margin-top: 30px; 
+    margin-bottom: 48px; 
+    width: 225px; 
+    border: solid 1px #00000024; 
+    background-color: #fff; 
+    padding: 15px 10px;
+    border-radius: 60px;
+ } 
+ main hr { 
+    margin: 0 121px;
+ } 
+ main .catalog-container { 
+   flex-direction: column;
+ }
+ main .catalog .row { 
+    margin-left: 215px; 
+    width: 1304px;
+    margin-bottom: 20px;
+ } 
+ main .catalog .row .col-12 { 
+    padding:  0;
+ } 
+.customers-reviews-section h1 { 
+    font-size: 45px; 
+    font-family:'arial black'; 
+    font-weight: 800; 
+    margin-top: 150px; 
+    margin-left: 111px;
+ } 
+ .customers-reviews-section .arrow-left { 
+    position: absolute; 
+    left: 1343px; 
+    top: 3351px; 
+    cursor: pointer;
+ } 
+ .customers-reviews-section .arrow-right { 
+    position: absolute; 
+    left: 1385px; 
+    top: 3351px; 
+    cursor: pointer;
+ }  
+ .customers-reviews-section .row { 
+    margin-top: 50px; 
+    width: 1351px; 
+    margin-left: 90px;
+ }
+ .customers-reviews-section .col-4 { 
+    border: solid 1px #00000024;
+    border-radius: 20px; 
+    padding: 25px 33px; 
+    margin-left: 21px; 
+    width: 421px; 
+    text-align: left; 
+    align-items: start
+ } 
+ .customers-reviews-section .col-4 p { 
+    width: 351px;
+ } 
+ .customers-reviews-section .col-4 h5 { 
+    margin-top: 15px;
+ } 
+ footer { 
+    background-color: #F0F0F0;
+ } 
+ footer .information-container { 
+    padding-top: 150px;
+    padding-bottom: 15px;
+ } 
+ footer .information-container .row { 
+    width: 1406px; 
+    margin-left: 112px; 
+ } 
+ footer .information-container h2 { 
+    font-family:  'arial black'; 
+    font-size: 35px; 
+    font-weight: 700; 
+    margin-bottom: 10px;
+ } 
+ footer .information-container p { 
+    color: #00000066; 
+    font-size: 14px;
+    width: 220px; 
+    
+ }  
+ footer ,.information-container .col-4 brand p { 
+    padding: 25px 0;
+ }
+ footer .information-container .social-media-icons img { 
+    margin: 0 5px;
+    margin-top: 15px; 
+    cursor: pointer;
+ } 
+ footer .information-container .row h6 { 
+    font-family: 'satoshi';
+    font-size: 18px; 
+    letter-spacing: 3px;
+ } 
+ footer .information-container span  { 
+    font-size: 16px; 
+    color: #00000066;
+    text-decoration: none;
+ } 
+ footer .information-container a  { 
+    text-decoration: none;
+ } 
+ footer .information-container .row .col-2 resources { 
+    width: 100px; 
+    margin-right: 20px;
+ }  
+ footer .information-container .col-2 h6 { 
+    margin-bottom: 25px; 
+
+ } 
+ .subscribtion-container { 
+   margin-bottom: -96px; 
+   margin-top: 130px;
+   z-index: 1; 
+   position: relative;
+ }
+ .subscribtion-box{ 
+   background-color: #000000; 
+   width: 1308px;
+   height: 185px; 
+   border-radius: 25px; 
+   margin:  0 auto; 
+   justify-content: space-between;
+   align-items: center; 
+   gap: 14px; 
+ }  
+ .subscribtion-box h1{ 
+   color: #fff; 
+   font-family:  'arial black'; 
+   font-size: 40px; 
+   width: 617px;
+   padding-left: 66px;
+ }  
+ .subscribtion-box-form { 
+   flex-direction: column; 
+   padding-left: 229px; 
+   margin-top: 21px;
+   
+ } 
+ .subscribtion-box .subscribtion-box-form input, 
+ .subscribtion-box .subscribtion-box-form button { 
+   width: 385px;  
+   height: 51px; 
+   border-radius: 60px;
+ }  
+ .subscribtion-box .subscribtion-box-form .form-icon svg { 
+   position: absolute; 
+   bottom: 111px;  
+   right: 514px; 
+   color: #00000099;
+   
+ }
+ .subscribtion-box .subscribtion-box-form button { 
+   margin-top: 15px; 
+   font-family: 'satoshi'; 
+   font-weight: 500;
+   margin-bottom: 16px;
+ } 
+ .subscribtion-box .subscribtion-box-form input { 
+   padding-left: 52px;
+ }
+  .footer-payments { 
+   background-color: #F0F0F0;
+ }
+ footer .footer-payments p { 
+   color: #00000057; 
+   font-family: 'satoshi'; 
+   font-size: 14px; 
+   margin-left: 121px; 
+   margin-top: 30px;
+ } 
+ footer hr { 
+   margin: 0 121px;
+ } 
+ footer .footer-payments-icons { 
+   margin-top: 18px; 
+   margin-left: 668px;
+ } 
+ footer .footer-payments-icons img { 
+   cursor: pointer;
+ }
+ 
+ 
+ 
+
+  
+
+
+
+

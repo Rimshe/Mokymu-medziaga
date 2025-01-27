@@ -1,0 +1,85 @@
+
+header { 
+    background-image: url("../art/img/Rectangle\ 6.jpg"); 
+    background-size: 1520px 500px; 
+    height: 300px;  
+    font-family: Montserrat; 
+} 
+ul { 
+    padding: 40px; 
+    display: flex; 
+    justify-content: end ;
+    position: relative ; 
+    bottom: 30px;
+} 
+a { 
+    padding: 15px 30px;
+    color: #fff;  
+    font-weight: 700; 
+    font-size: 14px;
+    text-decoration: none;
+} 
+a:hover { 
+    background: #E12E60;  
+    border-radius: 10px; 
+} 
+h1 { 
+    color: #fff; 
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800; 
+    padding-left: 50px; 
+    margin-right: 800px; 
+    position: relative; 
+    bottom: 20px;
+} 
+header .logo { 
+    width: 10px; 
+    height: 10px; 
+    position: relative ; 
+    top: 20px; 
+    left: 60px; 
+} 
+.first-block {  
+    background: #EF5D69; 
+    align-items: center; 
+    display: flex; 
+    justify-content: space-evenly;  
+    padding: 25px;
+} 
+.first-block p {  
+    background: #FCDFE1; 
+    padding: 40px;
+}  
+.second-block { 
+    display: flex; 
+    justify-content: space-evenly;
+    background: #FCDFE1;   
+    align-items: center; 
+    padding: 25px;
+} 
+.second-block p { 
+    background-color: #fff;  
+    width: 300px; 
+    height: 400px; 
+    text-align: start;
+    padding: 50px 25px;
+}  
+.second-block img { 
+    height: 500px; 
+    width: 700px;
+}  
+footer { 
+    background: black; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 15px 0;
+} 
+.footer-logo { 
+    width: 80px; 
+    height: 80px; 
+    margin-left: 50px;
+}
+
+

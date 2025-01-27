@@ -1,0 +1,30 @@
+.red { 
+    background-color: red; 
+    color: red; 
+    /* grid-column: 1/3 ; */
+} 
+.blue { 
+    background-color: blue; 
+    color: blue; 
+    /* grid-column: 3/5 ; */
+} 
+.green { 
+    background-color: green; 
+    color: green; 
+    /* grid-column:1/2; */
+} 
+.purple { 
+    background-color: purple; 
+    color: purple; 
+    /* grid-column: 2/5 ; */
+} 
+.yellow { 
+    background-color: yellow; 
+    color: yellow; 
+    /* grid-column: 1/5 ; */
+} 
+.container { 
+    display: grid; 
+    grid-template: repeat(5,150px) / repeat(5, 1fr); 
+    grid-gap: 10px;
+}

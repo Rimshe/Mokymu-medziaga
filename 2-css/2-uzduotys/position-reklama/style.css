@@ -1,0 +1,65 @@
+body { 
+    background: #131417; 
+    text-align: center; 
+    font-family: Inter;
+} 
+h1, p { 
+    color: #fff; 
+    position: relative; 
+    left: 90px; 
+    bottom: 50px;
+} 
+#container { 
+    background: #222225B2; 
+    margin: 150px 370px; 
+    padding: 100px 0px; 
+    border-radius: 15px;
+} 
+h1 { 
+font-size: 48px;
+font-weight: 600;
+text-align: left;
+} 
+p { 
+font-size: 15px;
+font-weight: 400;
+text-align: left;
+} 
+.megaphone { 
+    position: relative; 
+    top: 300px; 
+    right: 160px; 
+    transform: rotate(10deg);
+} 
+.blue { 
+    position: relative; 
+    top: 670px;
+    left:340px;  
+} 
+.red { 
+    position: relative; 
+    top: 590px;
+    left:280px;  
+} 
+.star { 
+    position: relative; 
+    top: 640px;
+    left:125px;  
+} 
+button { 
+    border: 2px solid #F17965; 
+    color: #F17965; 
+    background-color: #222225B2;; 
+    position: relative; 
+    right: 227px; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+} 
+button:hover { 
+    background-color: #F79090; 
+    color: white;
+}

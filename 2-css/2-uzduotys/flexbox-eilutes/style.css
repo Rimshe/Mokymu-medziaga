@@ -1,0 +1,29 @@
+.eile, .eile2, .eile3, .eile4 { 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20px;
+} 
+.eile, .eile3 { 
+    background-color: orange;
+} 
+.eile2, .eile4 { 
+    background: orangered;
+} 
+.text-background { 
+    background-color: #fff
+} 
+p { 
+    margin: 10px;
+} 
+.eile3 { 
+    justify-content: center; 
+} 
+.eile3 { 
+    padding: 15px;  
+} 
+.eile4 { 
+    justify-content: space-between; 
+} 
+.eile4 p { 
+    background-color: orange; 
+} 

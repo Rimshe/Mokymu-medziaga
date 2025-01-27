@@ -1,0 +1,167 @@
+@media screen and (min-width: 992px) and (max-width: 1023px) { 
+    #page-container header .top-banner p { 
+        text-align: center; 
+        padding: 5px 0; 
+        margin: 0 auto;
+    }  
+    #page-container header form .form-control { 
+        width: 211px; 
+        margin-left: 50px;
+    } 
+    #page-container header nav { 
+        width: 1115px;
+    }
+    header .search-icon svg { 
+        right: 300px; 
+        top: 71px;
+    }  
+    header .header-icons { 
+        left: 887px; 
+        top: 65px;
+    } 
+    .welcome-page { 
+        background-size: 988px 700px; 
+        background-color: #f2f0f1; 
+        height: 577px;
+    }
+    .welcome-page h1 { 
+        font-size: 50px; 
+    } 
+    .small-star img { 
+        left: 518px; 
+        top: 482px;
+    } 
+    .big-star img { 
+        top: 285px;
+        left: 868px;
+    } 
+    .welcome-page .welcome-page-title { 
+        padding-left: 27px;
+    } 
+    .welcome-page .welcome-page-statistics { 
+        padding-left: 0px; 
+        margin-left: 0px; 
+        width: 100%;
+    }  
+    .welcome-page .welcome-page-statistics .row {  
+        width: 95%;
+    }  
+    .welcome-page .welcome-page-statistics .row .col-6 {  
+        width: 33%;
+    }
+    .welcome-page .welcome-page-statistics span { 
+        font-size: 26px;
+    } 
+    .welcome-page .welcome-page-statistics p { 
+        font-size: 9px; 
+        width: 89px;
+    } 
+    .brand-banner .brand-banner-images { 
+        width: 100%;
+    }   
+    main .products-section .img-bounce-animation img { 
+        height: 170px; 
+        width: 170px;
+    }  
+    main .products-section img { 
+        height: 14px; 
+        width: 100px;
+    } 
+    main .products-section h6 { 
+        font-size: 13px;
+    } 
+    main .products-section p { 
+        font-size: 20px;
+    } 
+    main .products-section span { 
+        font-size: 20px;
+    } 
+    main .products-section .discount-box p { 
+        font-size: 10px; 
+        margin-top: 3px;
+    } 
+    main .products-section .discount-box { 
+        height: 21px; 
+        width: 33px;
+    } 
+    main .products-section button { 
+        margin-left: 383px;
+    } 
+    .catalog .small-img img { 
+        height: 250px; 
+        
+    }  
+    .catalog .big-img img { 
+       width: 599px;
+    }  
+    main .catalog .row { 
+        margin-left: 30px;
+    }  
+    .customers-reviews-section h1 { 
+        margin-left: 0; 
+        text-align: center;
+    } 
+    .customers-reviews-section .row { 
+        margin-left: 0;
+    } 
+    .customers-reviews-section .col-4 { 
+        width: 306px;
+    } 
+    .customers-reviews-section .col-4 p { 
+        width: 252px; 
+        font-size: 13px;
+    } 
+    .customers-reviews-section .arrow-left { 
+       top: 2930px; 
+       left: 872px;
+    }  
+    .customers-reviews-section .arrow-right { 
+        top: 2930px; 
+        left: 913px;
+     } 
+    .subscribtion-box  { 
+       width: 80%;
+    }  
+    .subscribtion-box h1 { 
+        font-size: 30px; 
+        padding-left: 20px; 
+        width: 315px;
+     } 
+     .subscribtion-box input, 
+     .subscribtion-box button { 
+        width: 245px; 
+    }  
+    .subscribtion-box-form { 
+        padding-left: 29px;
+    }
+    .subscribtion-box .subscribtion-box-form .form-icon svg { 
+        right: 490px;
+    }
+     footer .information-container .row { 
+        margin-left: 20px;
+     } 
+     footer .information-container .row  .col-md-12 { 
+        width: 100% ; 
+     }  
+     footer .information-container h2 { 
+        margin-left: 388px;
+     }
+     footer .information-container .row  .col-md-12 p { 
+        margin-left: 200px; 
+        width: 590px;
+     } 
+     footer .information-container .row  .col-md-12 .social-media-icons { 
+        margin-left: 751px ; 
+        margin-bottom: 25px;
+     } 
+     footer hr { 
+        margin: 0;
+     } 
+     footer .footer-payments p { 
+        margin-left: 20px;
+     } 
+     footer .footer-payments-icons { 
+        margin-left: 360px
+     }
+
+}

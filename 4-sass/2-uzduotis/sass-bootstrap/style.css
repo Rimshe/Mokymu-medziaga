@@ -1,0 +1,119 @@
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page-container {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+#page-container header {
+  padding: 12px 0;
+  background-color: white;
+}
+#page-container header nav {
+  background-color: white;
+  padding-right: 75px;
+  padding-left: 85px;
+}
+#page-container header nav button {
+  background-color: #20AD96;
+  border-color: #20AD96;
+}
+#page-container header nav .brand-logo-icon {
+  color: white;
+  position: absolute;
+  left: 103px;
+  top: 15px;
+}
+#page-container header nav .navbar-brand {
+  color: #333461;
+  font-weight: 600;
+}
+#page-container header nav .navbar-nav a {
+  color: #4A556C;
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 30px;
+}
+#page-container main .welcome-page .form-container {
+  height: 700px;
+  width: 50%;
+}
+#page-container main .welcome-page .form-container .title-box h1 {
+  font-family: "Kumbh sans";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  text-align: left;
+  color: #333461;
+  width: 615px;
+  margin-top: 115px;
+  padding-left: 115px;
+}
+#page-container main .welcome-page .form-container .title-box p {
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #667085;
+  padding-left: 115px;
+  width: 595px;
+}
+#page-container main .welcome-page .form-container .form-box {
+  padding-left: 115px;
+}
+#page-container main .welcome-page .form-container .form-box input {
+  width: 300px;
+  margin-top: 20px;
+  color: #667085;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  height: 45px;
+}
+#page-container main .welcome-page .form-container .form-box p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #667085;
+  padding-top: 15px;
+}
+#page-container main .welcome-page .form-container .form-box span {
+  text-decoration: underline;
+}
+#page-container main .welcome-page .form-container .form-box button {
+  width: 300px;
+  background-color: #20AD96;
+  height: 45px;
+  border-color: #20AD96;
+}
+#page-container main .welcome-page .add-container {
+  background-color: #FAF8F6;
+  width: 50%;
+}
+#page-container main .welcome-page .add-container img {
+  padding-left: 25%;
+  padding-top: 80px;
+}
+#page-container main .welcome-page .add-container .add-circle {
+  background-color: #20AD96;
+  width: 100px;
+  text-align: center;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 620px;
+  left: 570px;
+}
+#page-container main .welcome-page .add-container .add-circle h6 {
+  color: white;
+  font-size: 15px;
+  padding-top: 40px;
+}

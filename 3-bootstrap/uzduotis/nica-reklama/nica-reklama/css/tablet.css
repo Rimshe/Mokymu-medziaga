@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+    header .container h1 { 
+        font-size: 50px;
+    } 
+    header .container p { 
+        font-size: 25px;
+    } 
+    .work-info .container p { 
+        margin-bottom: 30px;
+    } 
+    .video .container .video-wrapper iframe {  
+        height: 350px
+    } 
+    .team-info .container .row p { 
+        margin-bottom: 30px;
+    }
+    footer .container .row p, 
+    footer .container .row h3 { 
+        margin-top: 20px;
+    }
+}

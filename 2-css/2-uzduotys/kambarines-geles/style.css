@@ -1,0 +1,132 @@
+h1 { 
+    font-family: 'Poppins';
+    font-size: 65px;
+    font-weight: 700;
+    text-align: left; 
+    margin-left: 120px;
+}
+img { 
+    width: 300px; 
+    height: 350px; 
+    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px;   
+} 
+.card { 
+    display: inline-block; 
+    padding-left: 20px;
+}
+.inside-card { 
+    text-align: left;  
+    box-shadow: 0px 2px 6px 0px #00000026;
+    width: 300px; 
+    height: 150px; 
+    position: relative;
+    bottom: 26px;
+}  
+h3, p, .color-text { 
+    font-family: 'Inter'; 
+   
+}   
+h3 { 
+    padding-left: 20px; 
+    padding-top: 10px;
+}   
+p { 
+color: #777777;
+font-size: 14px; 
+padding-left: 20px;
+} 
+.color-text { 
+    color: #7D9458; 
+    font-size: 12px; 
+    padding-left: 20px;
+} 
+.black { 
+    background: black; 
+    width: 12px; 
+    height: 12px; 
+    border-radius: 50%;
+}  
+.pink { 
+    background: pink; 
+    width: 12px; 
+    height: 12px; 
+    border-radius: 50%;
+}  
+.grey { 
+    background: grey; 
+    width: 12px; 
+    height: 12px; 
+    border-radius: 50%;
+}  
+.brown { 
+    background: brown; 
+    width: 12px; 
+    height: 12px; 
+    border-radius: 50%;
+} 
+.colors { 
+   text-align: left;
+   margin-left: 19px;
+ } 
+ .colors span { 
+    display: inline-block; 
+    margin-right: 3px;
+ } 
+ button { 
+    margin-left: 200px;
+    margin-bottom: 180px;
+    position: relative; 
+    bottom: 30px; 
+    padding: 7px 27px; 
+    color: #84AD40; 
+    background:#fff; 
+    border-radius: 3px;
+    border: 1px solid #84AD40;
+ } 
+ .content-box { 
+    gap: 30px ; 
+    margin-left: 100px;
+ } 
+ button:hover { 
+    color: #fff; 
+    background:#84AD40; 
+ } 
+ @media only screen and (max-width:768px) and (min-width:376px) { 
+ /* Tablet */  
+    button { 
+        width: 100%; 
+        margin-left: 1px; 
+        margin-top: 32px;
+    } 
+    .color-text { 
+        text-align: center; 
+        margin-left: 90px;
+    } 
+    .inside-card { 
+        padding-bottom: 20px; 
+    } 
+    .colors { 
+        margin-left: 115px;
+    }
+}
+ @media only screen and (max-width:375px) { 
+    /* Phone */ 
+    button { 
+        width: 100%; 
+        margin-left: 1px;
+    } 
+    .inside-card { 
+        padding-bottom: 20px; 
+    } 
+    .colors { 
+        margin-left: 115px;
+    } 
+    button { 
+        margin-top: 32px;
+    } 
+    .color-text { 
+        text-align: center; 
+        margin-left: 90px;
+    } 
+ }

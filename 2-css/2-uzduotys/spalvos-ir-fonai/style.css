@@ -1,0 +1,24 @@
+
+#first-article-container { 
+    background-image: url("kalnai.png");
+}  
+#first-article-container .article-header {
+    color: #ffffff;
+    background-color: rgba(56, 86, 101, 0.3)
+} 
+p { 
+    background-color: #ffffff; 
+    opacity: 0.5;
+} 
+#second-article-container { 
+    background-image: url("canyon.png"); 
+    background-repeat: no-repeat;
+} 
+#second-article-container .article-header { 
+color: #ffffff; 
+background-color:rgba(96, 3, 3, 0.753); 
+}  
+#second-article-container { 
+background-size: 1520px 300px;
+} 
+
