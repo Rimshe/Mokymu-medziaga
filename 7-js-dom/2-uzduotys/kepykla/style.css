@@ -1,0 +1,77 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f8f8f8;
+}  
+
+body { 
+    font-family: "Source Sans 3", serif; 
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-weight: 900;
+}
+
+.block-wrapper { 
+    background: radial-gradient(139.73% 138.86% at -74.71% 4.81%, rgb(226, 238, 63) 40%, rgba(239, 147, 71, 0.684) 100%);  
+    border: solid 4px orange;  
+    width: 100%; 
+    max-width: 600px; 
+    padding: 20px 35px; 
+    margin: 30px auto; 
+    border-radius: 20px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.02);
+}  
+
+.info-wrapper .input-wrapper { 
+    margin: 10px 0;
+} 
+
+.info-wrapper .input-wrapper > * { 
+    display: block;
+} 
+
+.info-wrapper .input-wrapper input { 
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    padding: 7px;
+    border-radius: 10px; 
+    border: none;
+}   
+
+.info-wrapper .input-wrapper input:hover { 
+    background-color: rgba(248, 219, 191, 0.275); 
+    transition: 0.3s; 
+    border: solid 2px orange; 
+    padding: 13px;
+}
+
+.info-wrapper .input-wrapper input.error{ 
+    border-color: red; 
+    background-color: rgba(255, 0, 0, 0.2);
+} 
+
+.info-wrapper .input-wrapper span.error, span.error2, span.error3, span.error4, span.error5, span.error6 { 
+    color: red; 
+    text-transform: uppercase; 
+    font-size: 12px;
+} 
+
+.info-wrapper .input-wrapper span.error:not(.show), span.error2:not(.show), span.error3:not(.show), span.error4:not(.show), span.error5:not(.show), span.error6:not(.show) { 
+    display: none;
+}
+
+.info-wrapper button { 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border: 3px solid rgb(255, 128, 0); 
+    border-radius: 10px; 
+    background-color: rgba(238, 255, 0, 0.623);
+} 
+
+.info-wrapper button:hover { 
+    background-color: rgb(255, 128, 0); 
+    transition: 0.5s;
+}

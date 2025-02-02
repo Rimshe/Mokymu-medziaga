@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Kepykla</title>  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <header class="block-wrapper"> 
+        <h1>Kepykla</h1>
+    </header>
+
+    <div class="info-wrapper block-wrapper"> 
+        <h2>Pradine informacija</h2> 
+        <div class="input-wrapper"> 
+            <label for="employees-count">Darbuotoju skaicius:</label> 
+            <input id="employees-count" type="number" min = 0 step="1" value="0"> 
+            <span class="error">Darbuotoju skaicius negali buti neigiamas</span>
+        </div> 
+        <div class="input-wrapper"> 
+            <label for="">Vienas darbuotojas iskepa kepalu per diena:</label> 
+            <input id="employee-makes-per-day" type="number" min = 0 step="1" value="0"> 
+            <span class="error2">Kepalu per diena skaicius negali buti neigiamas</span>
+        </div> 
+        <div class="input-wrapper"> 
+            <label for="day-reservations">Kiek uzsakymiu turi buti igyvendinta:</label> 
+            <input id="day-reservations" type="number" min = 0 step="1" value="0"> 
+            <span class="error3">Uzsakymu skaicius negali buti neigiamas</span>
+        </div>  
+        <div class="input-wrapper"> 
+            <label for="amount-of-days">Kiek dienu kepykla dirbs:</label> 
+            <input id="amount-of-days" type="number" min = 0 step="1" value="0"> 
+            <span class="error4">Dienu skaicius negali buti neigiamas</span>
+        </div>  
+        <div class="input-wrapper"> 
+            <label for="price">Vieneto kaina eurais:</label> 
+            <input id="price" type="number" min = 0 step="1" value="0"> 
+            <span class="error5">Skaicius negali buti neigiamas</span>
+        </div>  
+        <div class="input-wrapper"> 
+            <label for="self-cost">Savikaina eurais:</label> 
+            <input id="self-cost" type="number" min = 0 step="1" value="0"> 
+            <span class="error6">Skaicius negali buti neigiamas</span>
+        </div> 
+        <button id="calculate">Skaiciuoti</button> 
+        <button id="reset">Isvalyti</button>
+    </div> 
+
+    <div class="calculation-wraper block-wrapper"> 
+        <h2>Skaiciavimai</h2> 
+        <div id="results"> 
+            <p>kolkas nieko nera</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

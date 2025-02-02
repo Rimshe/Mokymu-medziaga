@@ -1,0 +1,30 @@
+.flex-container { 
+    display: inline-flex; 
+} 
+.first-box { 
+    border: 1px solid black;
+}  
+.first-box p { 
+    
+} 
+.first-box input { 
+    height: 20px; 
+    margin-right: 20px; 
+    width: 70px;
+    margin-top: 12px;
+} 
+.second-box { 
+    border: 1px solid black;
+} 
+.second-box button { 
+    height: 36px;  
+    margin-right: 5px;
+    margin-top: 7px; 
+    background-color: rgb(172, 170, 170);
+} 
+.second-box button:hover { 
+    background-color: rgb(156, 216, 216);
+} 
+.second-box button.active { 
+    background-color: lightblue;
+}
