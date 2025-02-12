@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="box-wrapper"> 
+        <h2>Pasirinkite receptą:</h2> 
+        <div class="main-container">  
+            <div class="first-box"> 
+                <img src="./images/image1.svg"> 
+                <h3>Vištiena su salotom</h3> 
+                <p>Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+                <img src="./images/checkmark.svg" class="active">
+            </div>  
+            <div class="second-box"> 
+                <img src="./images/image2.svg"> 
+                <h3>Tortas su melynem</h3> 
+                <p>Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+                <img src="./images/checkmark.svg" class="active">
+            </div>  
+            <div class="third-box">
+                <img src="./images/image3.svg">  
+                <h3>Makaronai su mesa</h3> 
+                <p>Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>  
+                <img src="./images/checkmark.svg" class="active">
+            </div>  
+        </div>
+    </div> 
+    <div class="block-container porcijos"> 
+        <h2>Kiek porciju gaminsite?</h2> 
+        <p>1</p> 
+        <input type="range" min="1" max="15" value="1">
+    </div> 
+    <div class="block-container ingridientai"> 
+        <h2>Jums reikės šių ingredientų, tokiais kiekiais:</h2>
+        <div class="results"> 
+
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

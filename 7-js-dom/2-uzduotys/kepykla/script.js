@@ -57,5 +57,27 @@ function calculation(event) {
     document.getElementById('amount-of-days').value = 0; 
     document.getElementById('price').value = 0; 
     document.getElementById('self-cost').value = 0;
-    document.getElementById('results').innerHTML = '<p>kolkas nieko nera</p>';
-});
+    document.getElementById('results').innerHTML = '<p>kolkas nieko nera</p>'; 
+}); 
+
+function atsitiktinis() { 
+    
+    let randomNumber1 = Math.floor(Math.random() * 10) + 1;  
+    let randomNumber2 = Math.floor(Math.random() * 10) + 1;  
+    let randomNumber3 = Math.floor(Math.random() * 10) + 1;  
+    let randomNumber4 = Math.floor(Math.random() * 10) + 1;  
+    let randomNumber6 = Math.floor(Math.random() * 10) + 1;  
+    let randomNumber5 = randomNumber6 + 3; 
+    
+    
+    document.getElementById('employees-count').value = randomNumber1;
+    document.getElementById('employee-makes-per-day').value = randomNumber2;
+    document.getElementById('day-reservations').value = randomNumber3;
+    document.getElementById('amount-of-days').value = randomNumber4;
+    document.getElementById('price').value = randomNumber5;
+    document.getElementById('self-cost').value = randomNumber6;
+}
+
+
+document.getElementById('random').addEventListener('click', atsitiktinis);
+
