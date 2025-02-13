@@ -1,3 +1,4 @@
+
 html body { 
     margin: 0; 
     padding: 0; 
@@ -8,7 +9,9 @@ html body {
     width: 760px;
 } 
 
-.container { 
+.container {
+    margin: 200px auto;
+    max-width: 1500px;
     display: flex;  
     align-items: center;
 } 
@@ -25,13 +28,15 @@ html body {
     margin-bottom: 8px;
 } 
 
-.suma span { 
+.suma .currency-to-label { 
     color: #949494; 
     font-family: 'Inter'; 
     font-size: 12px;
+    margin-top: unset
 } 
 
 .suma input { 
+    color: white;
     width: 320px; 
     height: 44px; 
     background: #191919;
@@ -79,6 +84,22 @@ html body {
     margin-top: 15px; 
     border: 2px solid white; 
     font-weight: 700; 
-    font-size: 16px; 
+    font-size: 16px;  
+    display: none;
+} 
+
+.rezultatas, .describtion { 
+    color: white;
+} 
+
+.underline { 
+    border-bottom: 12px solid rgb(228, 103, 159);  
+    text-underline-offset: 5px;
     
+} 
+
+.suma .norima-suma { 
+    color: #949494; 
+    font-family: 'Inter'; 
+    font-size: 12px;
 }
